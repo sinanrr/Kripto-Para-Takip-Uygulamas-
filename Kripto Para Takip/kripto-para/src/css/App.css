@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  height: 420px;
+  border-radius: 5px;
+  background-image: url("./src/assets/arkaplan.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 5px 3px black;
+}
+
+.form-ici {
+  display: flex;
+  gap: 100px;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+img {
+  margin: 15px 0 0 15px;
+}
